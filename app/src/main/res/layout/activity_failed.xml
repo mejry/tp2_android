@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/v1"
+        android:text=""
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        />
+    <ImageView
+        android:id="@+id/im1"
+        android:layout_below="@+id/v1"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:background="@drawable/im2"
+        />
+    <LinearLayout
+        android:layout_below="@id/im1"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+        <Button
+            android:id="@+id/b1"
+            android:text="N Tel"
+            android:backgroundTint="#8B0000"
+            android:layout_marginLeft="20dp"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            />
+        <Button
+            android:id="@+id/b2"
+            android:text="envoyer par SMS"
+            android:backgroundTint="#8B0000"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="50dp"
+            />
+    </LinearLayout>
+</RelativeLayout>
